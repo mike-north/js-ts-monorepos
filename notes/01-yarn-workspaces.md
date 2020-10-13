@@ -306,5 +306,5 @@ You should see reasonable output
 ---
 
 <p align='right'>
- <a href="./02-next.md">Next: Title ▶</a>
+ <a href="./02-second-package.md">◀ Back: Our Second Package</a>
 </p>

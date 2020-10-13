@@ -3,5 +3,5 @@
 ---
 
 <p align='right'>
- <a href="./01-project-tour.md">Next: Project Tour ▶</a>
+ <a href="./01-yarn-workspaces.md">Next: Yarn Workspaces ▶</a>
 </p>
