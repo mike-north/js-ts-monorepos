@@ -292,6 +292,17 @@ node_modules/
 
 We officially have a workspace with one package in it!
 
+Let's make sure that everything works. Enter your package, and build it, lint your source and run your tests.
+
+```sh
+cd packages/data
+yarn build
+yarn lint
+yarn test
+```
+
+You should see reasonable output
+
 ---
 
 <p align='right'>
