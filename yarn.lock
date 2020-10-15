@@ -2105,6 +2105,19 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
+"@microsoft/api-documenter@^7.9.12":
+  version "7.9.12"
+  resolved "http://localhost:4873/@microsoft%2fapi-documenter/-/api-documenter-7.9.12.tgz#58a2a55c4ec7ad69f8a883105391205942533495"
+  integrity sha512-+GeQh0klA899fC8Hlc7QIdpPBF0XZSS8Yn5edMP1ydppFovflHClJIqYfhhI5j71p0EQ/CPX0unYaypF0jp8uA==
+  dependencies:
+    "@microsoft/api-extractor-model" "7.10.3"
+    "@microsoft/tsdoc" "0.12.19"
+    "@rushstack/node-core-library" "3.34.3"
+    "@rushstack/ts-command-line" "4.7.3"
+    colors "~1.2.1"
+    js-yaml "~3.13.1"
+    resolve "~1.17.0"
+
 "@microsoft/api-extractor-model@7.10.3":
   version "7.10.3"
   resolved "http://localhost:4873/@microsoft%2fapi-extractor-model/-/api-extractor-model-7.10.3.tgz#f687f324e940bd71e3e73b5b262a54594b0ea61c"
@@ -7394,6 +7407,14 @@ js-yaml@^3.10.0, js-yaml@^3.13.1:
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.0.tgz#a7a34170f26a21bb162424d8adacb4113a69e482"
   integrity sha512-/4IbIeHcD9VMHFqDR/gQ7EdZdLimOvW2DdcxFjdyyZ9NsbS+ccrXqVWDtab/lRl5AlUqmpBx8EhPaWR+OtY17A==
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+js-yaml@~3.13.1:
+  version "3.13.1"
+  resolved "http://localhost:4873/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+  integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"

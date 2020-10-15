@@ -4,7 +4,11 @@
   "compilerOptions": {
     "composite": true,
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "@shlack/types": ["node_modules/@shlack/types/dist/types-beta.d.ts"]
+    }
   },
   "include": ["src"]
 }

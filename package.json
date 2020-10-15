@@ -13,6 +13,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@commitlint/config-lerna-scopes": "^11.0.0",
+    "@microsoft/api-documenter": "^7.9.12",
     "@microsoft/api-extractor": "^7.10.4",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
@@ -24,6 +25,7 @@
     "scripty": "^2.0.0"
   },
   "scripts": {
+    "api-docs": "scripty",
     "start": "scripty",
     "greet": "scripty",
     "dev": "scripty",

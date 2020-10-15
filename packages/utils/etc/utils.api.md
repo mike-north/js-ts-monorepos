@@ -25,7 +25,7 @@ export class Deferred<T> {
 }
 
 // @public
-export function formatTimestamp(date: Date): string;
+export function formatTimestamp(date: Date | number): string;
 
 // @public
 export class HTTPError extends Error {
