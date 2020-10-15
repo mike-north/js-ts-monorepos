@@ -9,6 +9,7 @@
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
     "test": "jest",
+    "lint": "eslint src --ext js,ts",
     "build": "tsc -b ."
   },
   "dependencies": {
