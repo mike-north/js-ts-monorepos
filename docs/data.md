@@ -11,5 +11,5 @@
 |  [getAllTeams()](./data.getallteams.md) |  |
 |  [getChannelById(id)](./data.getchannelbyid.md) |  |
 |  [getChannelMessages(teamId, channelId)](./data.getchannelmessages.md) |  |
-|  [getTeamById(id)](./data.getteambyid.md) |  |
+|  [getTeamById(id)](./data.getteambyid.md) | Get a [ITeam](./types.iteam.md) by ID |
 

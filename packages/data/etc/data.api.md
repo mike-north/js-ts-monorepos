@@ -17,7 +17,7 @@ export function getChannelById(id: string): Promise<IChannel>;
 // @public (undocumented)
 export function getChannelMessages(teamId: string, channelId: string): Promise<IMessage[]>;
 
-// @public (undocumented)
+// @public
 export function getTeamById(id: string): Promise<ITeam>;
 
 
