@@ -1,7 +1,7 @@
 # JS/TS Monorepos
 
-![Node.js CI](https://github.com/mike-north/js-ts-monorepos/workflows/Node.js%20CI/badge.svg)
-![ts-nightly compat](https://github.com/mike-north/js-ts-monorepos/workflows/TypeScript@Next%20tests/badge.svg)
+[![Node.js CI (solution)](https://github.com/mike-north/js-ts-monorepos/workflows/Node.js%20CI%20(solution)/badge.svg)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22Node.js+CI+%28solution%29%22)
+[![TypeScript@Next tests (solution)](https://github.com/mike-north/js-ts-monorepos/workflows/TypeScript@Next%20tests%20(solution)/badge.svg)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22TypeScript%40Next+tests+%28solution%29%22)
 
 ## What's this course about?
 
