@@ -1,6 +1,6 @@
 {
   "name": "@shlack/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -13,7 +13,7 @@
     "build": "scripty"
   },
   "dependencies": {
-    "@shlack/types": "^1.0.0",
+    "@shlack/types": "^1.1.0",
     "date-fns": "^2.16.1",
     "react": "^16.14.0"
   },
