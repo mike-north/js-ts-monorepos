@@ -2,9 +2,22 @@ import { useEffect } from "react";
 import Deferred from "./deferred";
 
 /**
+ * Fetches data from an API and then
+ * updates a `useState` setter
  *
- * @param  getData
- * @param  options
+ * @param getData - callback that returns a promise which resolves to data
+ * @param options - options having to do with `useState` and `useEffect`
+ *
+ * @example
+ * An example of how to use this with `React.useState`
+ * ```ts
+ * const messages = React.useState<IMessage[]>();
+ * useAsyncDataEffect(() => getChannelMessages(channel.teamId, channel.id), {
+ *   setter: setMessages,
+ *   stateName: "messages",
+ *   otherStatesToMonitor: [channel],
+ * });
+ * ```
  */
 export function useAsyncDataEffect<T>(
   getData: () => Promise<T>,
