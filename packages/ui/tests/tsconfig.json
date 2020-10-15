@@ -1,0 +1,11 @@
+{
+  "references": [{ "path": ".." }],
+  "compilerOptions": {
+    "types": ["jest"],
+    "baseUrl": "..",
+    "jsx": "react",
+    "noEmit": true,
+    "paths": { "@shlack/ui/*": ["../src/*"] }
+  },
+  "include": ["."]
+}
