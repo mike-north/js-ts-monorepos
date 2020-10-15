@@ -131,7 +131,7 @@ Each package we create will put its build output in its own folder, so we should
 We can install a _workspace_ dependency (at the root of the project, not a dependency of any package) to handle this in a platform-independent way:
 
 ```sh
-yarn -WD rimraf
+yarn add -WD rimraf
 ```
 
 Then, go to `types/package.json` and `utils.package.json` and make this small change
