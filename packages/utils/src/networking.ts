@@ -53,5 +53,5 @@ export async function apiCall(
   }
   if (!response.ok)
     throw new HTTPError(response, "Problem while making API call");
-  return json;
+  return json as unknown;
 }

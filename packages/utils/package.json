@@ -7,6 +7,7 @@
     "access": "public"
   },
   "scripts": {
+    "lint": "eslint src --ext js,ts",
     "clean": "rimraf dist",
     "build": "tsc -b ."
   },
