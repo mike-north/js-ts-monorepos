@@ -6,9 +6,9 @@
   "author": "Mike North <michael.l.north@gmail.com>",
   "license": "BSD-2-Clause",
   "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "volta": {
     "node": "16.14.2",
     "yarn": "1.22.18"
