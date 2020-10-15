@@ -13,11 +13,21 @@
     "node": "16.14.2",
     "yarn": "1.22.18"
   },
+  "scripts": {
+    "build": "scripty",
+    "test": "scripty",
+    "lint": "scripty",
+    "clean": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
     "eslint": "^7.11.0",
     "lerna": "^3.22.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0"
   }
 }
