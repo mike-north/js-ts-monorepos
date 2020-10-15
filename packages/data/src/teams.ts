@@ -16,6 +16,10 @@ export async function getAllTeams(): Promise<ITeam[]> {
 
 const cachedTeamRecords: Record<string, Promise<ITeam>> = {};
 
+/**
+ * Get a {@link @shlack/types#ITeam} by ID
+ * @param id id of team to fetch
+ */
 export async function getTeamById(id: string): Promise<ITeam> {
   let cached = cachedTeamRecords[id];
   if (typeof cached === "undefined")
