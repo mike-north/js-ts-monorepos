@@ -1,0 +1,10 @@
+{
+  "references": [{ "path": "..", "name": "@shlack/types" }],
+  "compilerOptions": {
+    "lib": ["DOM", "ES2018"],
+    "types": ["jest"],
+    "baseUrl": "..",
+    "noEmit": true
+  },
+  "include": ["."]
+}
