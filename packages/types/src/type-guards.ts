@@ -15,8 +15,7 @@ export function isTypedArray<T>(
   check: (x: any) => x is T
 ): arr is T[] {
   if (!Array.isArray(arr)) return false;
-  const mismatch = arr.filter((item) => !check(item));
-  if (mismatch.length > 0) return false;
+  if (arr.some((item) => !check(item))) return false;
   return true;
 }
 
