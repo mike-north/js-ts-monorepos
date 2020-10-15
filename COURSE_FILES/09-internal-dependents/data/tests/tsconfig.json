@@ -1,0 +1,11 @@
+{
+  "references": [{ "path": ".." }],
+  "compilerOptions": {
+    "lib": ["ES2018"],
+    "types": ["jest"],
+    "baseUrl": "..",
+    "noEmit": true,
+    "paths": { "@shlack/data": [".."] }
+  },
+  "include": ["."]
+}
