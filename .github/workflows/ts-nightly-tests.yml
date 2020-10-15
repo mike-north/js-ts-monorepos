@@ -1,5 +1,5 @@
 
-name: TypeScript@Next tests
+name: TypeScript@Next tests (solution)
 
 on:
   schedule:
