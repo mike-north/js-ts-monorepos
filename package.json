@@ -5,5 +5,11 @@
   "repository": "git@github.com:mike-north/js-ts-monorepos.git",
   "author": "Mike North <michael.l.north@gmail.com>",
   "license": "BSD-2-Clause",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
 }
