@@ -16,7 +16,6 @@ To go from our starting point code to a "yarn workspaces" enabled project, we ne
   "repository": "git@github.com:mike-north/js-ts-monorepos.git",
   "author": "Mike North <michael.l.north@gmail.com>",
   "license": "BSD-2-Clause",
-+ "private": true
 + "private": true,
 + "workspaces": [
 +   "packages/*"
@@ -35,7 +34,6 @@ which should result in another change being made to your [`package.json`](../pac
   "repository": "git@github.com:mike-north/js-ts-monorepos.git",
   "author": "Mike North <michael.l.north@gmail.com>",
   "license": "BSD-2-Clause",
-  "private": true
   "private": true,
   "workspaces": [
     "packages/*"
