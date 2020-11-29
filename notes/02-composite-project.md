@@ -134,7 +134,7 @@ We can install a _workspace_ dependency (at the root of the project, not a depen
 yarn -WD rimraf
 ```
 
-Then, go to `types/package.json` and `utils.package.json` and make this small change
+Then, go to `types/package.json` and `utils/package.json` and make this small change
 
 ```diff
 @@ -7,6 +7,7 @@
