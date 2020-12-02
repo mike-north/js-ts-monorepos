@@ -9,5 +9,5 @@
     "noImplicitReturns": true,
     "declaration": true
   },
-  "exclude": ["**/node_modules/**"]
+  "exclude": ["**/node_modules/**", "COURSE_FILES/**"]
 }
