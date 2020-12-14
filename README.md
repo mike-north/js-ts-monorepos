@@ -26,7 +26,15 @@ Connection to github.com closed.
 
 ### Tools
 
-Next, make sure you have installed [volta](http://volta.sh/) which ensures you have the right version of node and yarn for this project
+Next, make sure you have installed [volta](http://volta.sh/) which ensures you have the right version of node and yarn for this project. You can run:
+```
+volta install node
+```
+and then:
+```
+volta install yarn
+```
+To get the right versions for this workshop.
 
 We also strongly recommend the use of [Visual Studio Code](https://code.visualstudio.com/) as an authoring tool. If you use something else, you're on your own.
 
