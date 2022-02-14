@@ -72,7 +72,7 @@ we'll need a `tsconfig.json` as well, and it'll be almost _exactly_ the same as 
 }
 ```
 
-and then create a `utils/package.json`
+and then create a `utils/tsconfig.json`
 
 ```json
 {
@@ -86,7 +86,7 @@ and then create a `utils/package.json`
 }
 ```
 
-and then update your `types/package.json` so that it exactly matches
+and then update your `types/tsconfig.json` so that it exactly matches
 
 ```diff
 @@ -1,14 +1,7 @@
