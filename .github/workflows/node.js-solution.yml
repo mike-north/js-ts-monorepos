@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [12.x, 14.x, 16.x, stable]
 
     steps:
     - name: Checkout
@@ -31,7 +31,7 @@ jobs:
           !~/cache/exclude
           **/node_modules
         key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
-      
+
     - name: Use (Volta) Node.js ${{ matrix.node-version }}
       uses: volta-cli/action@v1
       with:
